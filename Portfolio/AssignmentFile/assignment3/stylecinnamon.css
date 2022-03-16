@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Handlee', cursive;
+    background-color: #CFB784;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    background-color: #CFB784;
+    flex-wrap: wrap;
+}
+.cinnamonname{
+    font-size: 50px;
+}
+.cinnamon1img{
+    width: 30%;
+}
+.ingredientsbox{
+    margin-left: 50px;
+}
+h4{
+    font-weight: lighter;
+    margin-left: 20px;
+}
+h3{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+.step{
+    height: 50%;
+}
+.stepbox1,.stepbox2, .stepbox3 , .stepbox4 , .stepbox5 , .stepbox6 , .stepbox7 , .stepbox8{
+    width: 25%;
+}
+.step1img , .step2img ,.step3img , .step4img , .step5img , .step8img{
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+.containerstep1 , .containerstep2{
+    display: flex;
+}
+.step2img{
+    margin-top: 10%;
+}
+.step3img{
+    margin-top: 3%;
+}
+.step4img{
+    margin-top: 50px;
+}
+.stepbox1,.stepbox3,.stepbox6,.stepbox8{
+    background-color: #EADEB8;
+}
+.stepbox2,.stepbox4,.stepbox5,.stepbox7{
+    background-color: #CFB784;
+}
+.step7img{
+    width: 72%;
+    margin-top: 10%;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+.step6img{
+    width: 69%;
+    margin-left: 15%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.step5img{
+    margin-top: 10%;
+}
+.decorate{
+    margin-left: 30px;
+}
+.source{
+    font-size: 30px;
+}
+a:hover{
+    color: #C56824;
+}
+.source{
+    text-align: center;
+    margin: 50px;
+}
+.container2{
+    display: flex;
+}
+.decoratebox{
+    background-color: #EADEB8;
+}
+.tipsbox{
+    background-color: #CFB784;
+}
+.decorateimg{
+    width: 50%;
+    margin-left: 160px;
+    border-radius: 20px;
+}
+.tipsimg{
+    width: 50%;
+    margin-left: 160px;
+    border-radius: 20px;
+}

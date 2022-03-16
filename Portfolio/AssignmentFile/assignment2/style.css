@@ -1,0 +1,112 @@
+body{
+    font-family: 'Mukta', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.imgparn{
+    width: 20%;
+    margin-top: 200px;
+}
+.profile{
+    background-color: #52734D;
+    color: white;
+    padding-bottom: 100px;
+    text-align: center;
+}
+div h2{
+    font-weight: lighter;
+    font-size: 18px;
+}
+.fa-brands{
+    width: 50px;
+    color: white;
+}
+a:hover .fa-brands{
+    color: #FAD586 ;
+}
+.aboutme{
+    background-color: #ecf0f3;
+    border-radius: 30px;
+    padding: 5px 35px 35px 1px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: 5px 5px 10px #dbdcdd;
+    width: auto;
+}
+p{
+    color: #184D47;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1{
+    color: black;
+    font-size: 50px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.skill{
+    list-style: none;
+    width: 900px;
+    color: #52734D;
+    padding: 20px;
+    text-align: left;
+}
+.skill li{
+    margin: 10px;
+    padding: 10px;
+}
+.skillbar{
+    background: #52734D;
+    display: block;
+    height: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.skillbar span{
+    height: 10px;
+    float: left;
+    background: #FAD586;
+}
+.development{
+    width: 70%;
+}
+.uxuidesign{
+    width: 70%;
+}
+.photography{
+    width: 80%;
+}
+.listen , .watch , .gaming , .coding , .food , .travel , .pets{
+    width: 100px;
+}
+.listenbox , .watchbox , .gamingbox , .codingbox , .foodbox , .travelbox , .petshbox{
+    background-color: #ecf0f3;
+    color: #52734D;
+    box-shadow: 5px 5px 10px #dbdcdd;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+.boxhobbie , .boxinterest{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+.hobbieitem , .interestitem{
+    width: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+div h4{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.stepbox{
+    background-color: white;
+}

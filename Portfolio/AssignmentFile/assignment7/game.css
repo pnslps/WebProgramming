@@ -1,0 +1,85 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    background-color: #9ADCFF;
+}
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    
+    border: 3px solid black;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+legend{
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    background-color: #FF8AAE;
+    border-radius: 10px;
+}
+fieldset{
+    background-color: #FFDDEE;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+    border: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.startbutton{
+    background-color: #FFF89A;
+    border: 0;
+    width: 20%;
+    height: 5vh;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 10px;
+}
+.timetext{
+    text-align: center;
+    margin-top: 2%;
+}
+.clock{
+    font-size: 100px;
+    margin-top: 5%;
+}
+input{
+    outline: 1;
+    width: 20%;
+    border: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 10px;
+}
+.select{
+    padding: 8px 15px;
+    color: black;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}
